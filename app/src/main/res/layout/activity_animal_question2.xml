@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animal"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.admin.quizapp.animalQuestion1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="question 2"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="which of the dogs is the smallest?"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Dachshund"
+        android:layout_width="150dp"
+        android:onClick="wrong1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" Dachshund" />
+
+    <Button
+        android:id="@+id/poodle"
+        android:layout_width="150dp"
+        android:onClick="wrong1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="poodle" />
+
+    <Button
+        android:id="@+id/chihuahua"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="correctAnswer"
+        android:text="chihuahua" />
+
+    <Button
+        android:id="@+id/pomeraniam"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="wrong1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:text="pomeraniam" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="movetoQ2"
+        android:text="next question " />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:text="exit " />
+
+        <TextView
+            android:id="@+id/scorePoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="score point"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+</LinearLayout>
+
+

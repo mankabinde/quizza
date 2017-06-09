@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/physics"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.admin.quizapp.animalQuestion1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="question 3"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="which element is used to reduced the glare in sunglasses?"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/layer"
+        android:layout_width="150dp"
+        android:onClick="wrong1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" layer of colour in sunglasses" />
+
+    <Button
+        android:id="@+id/magnification"
+        android:layout_width="150dp"
+        android:onClick="wrong1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="magnification device" />
+
+    <Button
+        android:id="@+id/polaroids"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="correctAnswer"
+        android:text="polaroids" />
+
+    <Button
+        android:id="@+id/lead_glass"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="wrong1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:text="lead glass" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="movetoQ4"
+        android:layout_gravity="center"
+        android:text="next Question" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:text="exit " />
+
+        <TextView
+            android:id="@+id/scorePoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="score point"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

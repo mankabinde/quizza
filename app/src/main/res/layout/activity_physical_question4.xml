@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/physics"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.admin.quizapp.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="question 4"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="why food is prepared in pressure cooker more quickly than a normal pan?"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/pressure"
+        android:layout_width="match_parent"
+        android:onClick="wrong1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="pressure cooker is deeper tha a normal pan" />
+
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="match_parent"
+        android:onClick="wrong1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="normal pan cannot absorb heat for a long time" />
+
+    <Button
+        android:id="@+id/boiling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="correctAnswer"
+        android:text="the boiling point of water raised in pressure cooker" />
+
+    <Button
+        android:id="@+id/cooker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="wrong1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:text="pressure cooker is made of food quality metal than can increase the boiling point of water" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="movetoQ5"
+        android:text="next question "
+        android:id="@+id/button2" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:text="exit " />
+
+        <TextView
+            android:id="@+id/scorePoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="score point"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".animalQuestion1" />
+        <activity android:name=".activity_animal_question2" />
+        <activity android:name=".activity_animal_question3" />
+        <activity android:name=".activity_animal_question4" />
+        <activity android:name=".activity_animal_question5" />
+        <activity android:name=".PhysicalQuestion1" />
+        <activity android:name=".physical_question2" />
+        <activity android:name=".physical_question3" />
+        <activity android:name=".physical_question4" />
+        <activity android:name=".physical_question5" />
+        <activity android:name=".christianity_question" />
+        <activity android:name=".christianity_question2" />
+        <activity android:name=".christianity_question3" />
+        <activity android:name=".christianity_question4" />
+        <activity android:name=".christianity_question5" />
+        <activity android:name=".scorepoint"></activity>
+    </application>
+
+</manifest>

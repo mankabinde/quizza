@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jesus"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.admin.quizapp.animalQuestion1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="question 5"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="holy saturday commemorate what?"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/conception"
+        android:layout_width="150dp"
+        android:onClick="wrong1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="jesus's conception" />
+
+    <Button
+        android:id="@+id/crucifixion"
+        android:layout_width="150dp"
+        android:onClick="wrong2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="jesus's crucifixion" />
+
+    <Button
+        android:id="@+id/tomb"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="correctAnswer"
+        android:text="jesus's in the tomb" />
+
+    <Button
+        android:id="@+id/resection"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="wrong4"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:text="jesus's resection" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="movetoQ2"
+        android:text="view results " />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:text="exit " />
+
+        <TextView
+            android:id="@+id/scorePoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="score point"
+            android:textSize="30dp" />
+
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+
+
