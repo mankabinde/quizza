@@ -8,7 +8,7 @@
 
     android:orientation="vertical"
 
-    tools:context="com.example.admin.quizapp.animalQuestion1">
+    tools:context="com.example.admin.quizapp.christianity_question1">
 
 
     <TextView
@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/hebrew"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=" the hebrew scriptures" />
@@ -46,7 +46,7 @@
     <Button
         android:id="@+id/testaments"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="the new testaments" />
@@ -56,7 +56,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:text="the old testaments" />
 
     <Button
@@ -70,35 +70,11 @@
 
 
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="movetoQ2"
-        android:text="next question " />
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_gravity="center"
-            android:padding="16dp"
-            android:text="exit " />
-
-        <TextView
-            android:id="@+id/scorePoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:text="score point"
-            android:textSize="30dp" />
 
 
 

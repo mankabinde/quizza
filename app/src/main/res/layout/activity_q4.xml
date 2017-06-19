@@ -8,7 +8,7 @@
 
     android:orientation="vertical"
 
-    tools:context="com.example.admin.quizapp.MainActivity">
+    tools:context="com.example.admin.quizapp.physical_question4">
 
 
     <TextView
@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/pressure"
         android:layout_width="match_parent"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="pressure cooker is deeper tha a normal pan" />
@@ -46,7 +46,7 @@
     <Button
         android:id="@+id/normal"
         android:layout_width="match_parent"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="normal pan cannot absorb heat for a long time" />
@@ -63,44 +63,21 @@
         android:id="@+id/cooker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"
         android:text="pressure cooker is made of food quality metal than can increase the boiling point of water" />
 
-
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="movetoQ5"
-        android:text="next question "
-        android:id="@+id/button2" />
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_gravity="center"
-            android:padding="16dp"
-            android:text="exit " />
 
-        <TextView
-            android:id="@+id/scorePoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:text="score point"
-            android:textColor="@color/colorAccent"
-            android:textSize="30dp" />
+
 
 
     </RelativeLayout>
 </LinearLayout>
+

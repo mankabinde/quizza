@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/white"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=" white with black stripes" />
@@ -56,48 +56,26 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="Wrong1"
+        android:onClick="movetoQ2"
         android:text="both of the above" />
 
     <Button
         android:id="@+id/none"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"
         android:text="none of the above" />
 
-
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="movetoQ2"
-        android:text="next question " />
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_gravity="center"
-            android:padding="16dp"
-            android:text="exit " />
 
-        <TextView
-            android:id="@+id/scorePoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:text="score point"
-            android:textSize="30dp" />
+
 
 
 

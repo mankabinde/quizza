@@ -17,10 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
     public void physcialScience(View view)
     {
-        Intent intent1 = new Intent(this,PhysicalQuestion1.class);
+        Intent intent1 = new Intent(this,physical_question1.class);
         startActivity(intent1);
     }
 
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Christianity(View view)
     {
-        Intent intent3 = new Intent(this,christianity_question.class);
+        Intent intent3 = new Intent(this,christianity_question1.class);
         startActivity(intent3);
     }
 

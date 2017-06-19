@@ -37,7 +37,7 @@
     <Button
         android:id="@+id/distance"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=" distance" />
@@ -45,7 +45,7 @@
     <Button
         android:id="@+id/temperature"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="temperature" />
@@ -62,43 +62,19 @@
         android:id="@+id/speed"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"
         android:text="speed" />
 
-
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:onClick="movetoQ3"
-        android:layout_gravity="center"
-        android:text="next Question"
-        android:id="@+id/button" />
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_gravity="center"
-            android:padding="16dp"
-            android:text="exit " />
 
-        <TextView
-            android:id="@+id/scorePoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:text="score point"
-            android:textColor="@color/colorAccent"
-            android:textSize="30dp" />
+
 
 
 

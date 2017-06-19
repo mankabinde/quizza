@@ -8,7 +8,7 @@
 
     android:orientation="vertical"
 
-    tools:context="com.example.admin.quizapp.animalQuestion1">
+    tools:context="com.example.admin.quizapp.physical_question1">
 
 
     <TextView
@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/viscometer"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=" viscometer" />
@@ -46,7 +46,7 @@
     <Button
         android:id="@+id/nephetometer"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="nephetometer" />
@@ -63,43 +63,19 @@
         android:id="@+id/tacheometer"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"
         android:text="tacheometer" />
-
-
-    <Button
-        android:id="@+id/next"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:onClick="movetoQ2"
-        android:layout_gravity="center"
-        android:text="next Question" />
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_gravity="center"
-            android:padding="16dp"
-            android:text="exit " />
 
-        <TextView
-            android:id="@+id/scorePoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:text="score point"
-            android:textColor="@color/colorAccent"
-            android:textSize="30dp" />
+
+
 
 
 

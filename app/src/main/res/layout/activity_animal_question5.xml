@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/birds"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=" birds" />
@@ -46,7 +46,7 @@
     <Button
         android:id="@+id/cats"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="cats" />
@@ -63,41 +63,21 @@
         android:id="@+id/horses"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"
         android:text="horses" />
 
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="movetoQ2"
-        android:text="view results " />
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_gravity="center"
-            android:padding="16dp"
-            android:text="exit " />
+        
 
-        <TextView
-            android:id="@+id/scorePoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:text="score point"
-            android:textSize="30dp" />
+
 
 
 

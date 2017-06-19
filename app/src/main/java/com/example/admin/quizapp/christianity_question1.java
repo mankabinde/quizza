@@ -5,14 +5,14 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class activity_animal_question3 extends AppCompatActivity {
+public class christianity_question1 extends AppCompatActivity {
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animal_question3);
+        setContentView(R.layout.activity_christianity_question1);
 
     }
 
@@ -22,7 +22,7 @@ public class activity_animal_question3 extends AppCompatActivity {
     }
 
     public  void movetoQ2(View view){
-        Intent intent1 = new Intent(this,activity_animal_question4.class);
+        Intent intent1 = new Intent(this,christianity_question2.class);
         startActivity(intent1);
     }
 

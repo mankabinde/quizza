@@ -20,17 +20,17 @@
         <activity android:name=".activity_animal_question3" />
         <activity android:name=".activity_animal_question4" />
         <activity android:name=".activity_animal_question5" />
-        <activity android:name=".PhysicalQuestion1" />
         <activity android:name=".physical_question2" />
         <activity android:name=".physical_question3" />
-        <activity android:name=".physical_question4" />
         <activity android:name=".physical_question5" />
-        <activity android:name=".christianity_question" />
+        <activity android:name=".physical_question1" />
+        <activity android:name=".christianity_question1" />
         <activity android:name=".christianity_question2" />
         <activity android:name=".christianity_question3" />
         <activity android:name=".christianity_question4" />
         <activity android:name=".christianity_question5" />
-        <activity android:name=".scorepoint"></activity>
+        <activity android:name=".scorepoint" />
+        <activity android:name=".q4"></activity>
     </application>
 
 </manifest>

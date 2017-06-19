@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/four"
         android:layout_width="150dp"
-        android:onClick="wrong1"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="one of the four gospels" />
@@ -46,7 +46,7 @@
     <Button
         android:id="@+id/book"
         android:layout_width="150dp"
-        android:onClick="wrong2"
+        android:onClick="movetoQ2"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="the book of revelation" />
@@ -63,7 +63,7 @@
         android:id="@+id/old"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:onClick="wrong4"
+        android:onClick="movetoQ2"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"
         android:text="the old testaments" />
@@ -71,36 +71,11 @@
 
 
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="movetoQ2"
-        android:text="next question " />
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_gravity="center"
-            android:padding="16dp"
-            android:text="exit " />
-
-        <TextView
-            android:id="@+id/scorePoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:text="score point"
-            android:textSize="30dp" />
-
 
 
 
